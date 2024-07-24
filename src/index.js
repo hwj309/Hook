@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
-// import Counter from './sample/useState/Counter';
-// import Info from './sample/useEffect/Info';
-// import ContextSample from './sample/useContext/ContextSample';
-// import Backing from './sample/useReducer/Baking';
-import Bank from './sample/useReducer/Bank';
+//  import App from './App';
+//  import reportWebVitals from './reportWebVitals';
+//  import Counter from './sample/useState/Counter';
+//  import Info from './sample/useEffect/Info';
+//  import ContextSample from './sample/useContext/ContextSample';
+//  import Backing from './sample/useReducer/Baking';
+// import Bank from './sample/useReducer/Bank';
 import Attendance from './sample/useReducer/Attendance';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,10 +22,11 @@ root.render(
     <p>=========================================================================</p>
     <Backing />
     <p>=========================================================================</p>
-     */}
     <Bank />
     <p>=========================================================================</p>
+    */}
     <Attendance />
+    
   </React.StrictMode>
 );
 //root.render(<Counter />);

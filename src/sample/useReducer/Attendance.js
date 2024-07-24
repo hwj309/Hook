@@ -2,16 +2,6 @@ import React, { useState, useReducer } from 'react';
 import Student from './Student';
 
 const reducer = (state, action) => {
-
-    if(action.type === 'add-student') {
-        state.students.map(student => {
-            if(student.name === action.payload.name) {
-                alert("중복");
-                return state;
-            }
-        });
-    }
-
     console.log('adasdsd');
     switch (action.type) {
         
