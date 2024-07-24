@@ -8,7 +8,9 @@ import './index.css';
 //  import ContextSample from './sample/useContext/ContextSample';
 //  import Backing from './sample/useReducer/Baking';
 // import Bank from './sample/useReducer/Bank';
-import Attendance from './sample/useReducer/Attendance';
+// import Attendance from './sample/useReducer/Attendance';
+import Calculate from './sample/useMemo/Calculate';
+import Country from './sample/useMemo/Country';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,8 +26,11 @@ root.render(
     <p>=========================================================================</p>
     <Bank />
     <p>=========================================================================</p>
-    */}
     <Attendance />
+    <Calculate />
+    <p>=========================================================================</p>
+    */}
+    <Country />
     
   </React.StrictMode>
 );
