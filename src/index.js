@@ -9,28 +9,34 @@ import './index.css';
 //  import Backing from './sample/useReducer/Baking';
 // import Bank from './sample/useReducer/Bank';
 // import Attendance from './sample/useReducer/Attendance';
-import Calculate from './sample/useMemo/Calculate';
-import Country from './sample/useMemo/Country';
+// import Calculate from './sample/useMemo/Calculate';
+// import Country from './sample/useMemo/Country';
+import CallSomeFunc from './sample/useCallBack/CallSomeFunc';
+import CreateBoxStyle from './sample/useCallBack/CreateBoxStyle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 {/* 
     <Counter />
-    <p>=========================================================================</p>
+    <hr/>
     <Info />
-    <p>=========================================================================</p>
+    <hr/>
     <ContextSample />
-    <p>=========================================================================</p>
+    <hr/>
     <Backing />
-    <p>=========================================================================</p>
+    <hr/>
     <Bank />
-    <p>=========================================================================</p>
+    <hr/>
     <Attendance />
     <Calculate />
-    <p>=========================================================================</p>
-    */}
+    <hr/>
     <Country />
+    <hr/>
+    */}
+    <CallSomeFunc />
+    <hr />
+    <CreateBoxStyle />
     
   </React.StrictMode>
 );
