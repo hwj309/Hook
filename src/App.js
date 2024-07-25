@@ -30,7 +30,7 @@ function App() {
   const [M12, setM12] = useState(false);
 
   return (
-    <div className="App">
+    <div className="App"> {/* className="App" */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -47,46 +47,46 @@ function App() {
       </header> */}
       <hr />
       <h1>useState</h1>
-      <h3 onClick={() => {setM1(!M1)}}>Counter</h3>
+      <h3 className="menuTitle" onClick={() => {setM1(!M1)}}>Counter</h3>
       { M1 ? <Counter /> : null }
       <hr/>
       <h1>useEffect</h1>
-      <h3 onClick={() => {setM2(!M2)}}>Info</h3>
+      <h3 className="menuTitle" onClick={() => {setM2(!M2)}}>Info</h3>
       { M2 ? <Info /> : null }
       <hr/>
       <h1>useContext</h1>
-      <h3 onClick={() => {setM3(!M3)}}>ContextSample</h3>
+      <h3 className="menuTitle" onClick={() => {setM3(!M3)}}>ContextSample</h3>
       { M3 ? <ContextSample /> : null }
       <hr/>
       <h1>useReducer</h1>
-      <h3 onClick={() => {setM4(!M4)}}>Backing</h3>
+      <h3 className="menuTitle" onClick={() => {setM4(!M4)}}>Backing</h3>
       { M4 ? <Backing /> : null }
       <p>==============================</p>
-      <h3 onClick={() => {setM5(!M5)}}>Bank</h3>
+      <h3 className="menuTitle" onClick={() => {setM5(!M5)}}>Bank</h3>
       { M5 ? <Bank /> : null }
       <p>==============================</p>
-      <h3 onClick={() => {setM6(!M6)}}>Attendance</h3>
+      <h3 className="menuTitle" onClick={() => {setM6(!M6)}}>Attendance</h3>
       { M6 ? <Attendance /> : null }
       <hr />
       <h1>useMemo</h1>
-      <h3 onClick={() => {setM7(!M7)}}>Calculate</h3>
+      <h3 className="menuTitle" onClick={() => {setM7(!M7)}}>Calculate</h3>
       { M7 ? <Calculate /> : null }
       <p>==============================</p>
-      <h3 onClick={() => {setM8(!M8)}}>Country</h3>
+      <h3 className="menuTitle" onClick={() => {setM8(!M8)}}>Country</h3>
       { M8 ? <Country /> : null }
       <hr/>
       <h1>useCallback</h1>
-      <h3 onClick={() => {setM9(!M9)}}>CallSomeFunc</h3>
+      <h3 className="menuTitle" onClick={() => {setM9(!M9)}}>CallSomeFunc</h3>
       { M9 ? <CallSomeFunc /> : null }
       <p>==============================</p>
-      <h3 onClick={() => {setM10(!M10)}}>CreateBoxStyle</h3>
+      <h3 className="menuTitle" onClick={() => {setM10(!M10)}}>CreateBoxStyle</h3>
       { M10 ? <CreateBoxStyle /> : null }
       <hr />
       <h1>useRef</h1>
-      <h3 onClick={() => {setM11(!M11)}}>CountState</h3>
+      <h3 className="menuTitle" onClick={() => {setM11(!M11)}}>CountState</h3>
       { M11 ? <CountState /> : null }
       <p>==============================</p>
-      <h3 onClick={() => {setM12(!M12)}}>Login</h3>
+      <h3 className="menuTitle" onClick={() => {setM12(!M12)}}>Login</h3>
       { M12 ? <Login /> : null }
     </div>
   );
